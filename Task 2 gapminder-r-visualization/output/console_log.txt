@@ -1,0 +1,40 @@
+Rows: 1,704
+Columns: 8
+$ country   <chr> "Afghanistan", "Afghanistan", "Afghanistan", "Afghanistan", ~
+$ continent <fct> Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, ~
+$ year      <dbl> 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992, 1997, ~
+$ lifeExp   <dbl> 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.854, 40.8~
+$ pop       <dbl> 8425333, 9240934, 10267083, 11537966, 13079460, 14880372, 12~
+$ gdpPercap <dbl> 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 786.1134, ~
+$ iso_alpha <chr> "AFG", "AFG", "AFG", "AFG", "AFG", "AFG", "AFG", "AFG", "AFG~
+$ iso_num   <dbl> 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, ~
+
+Rows: 1704  Countries: 142  Years: 1952-2007 
+Missing values per column:
+  country continent      year   lifeExp       pop gdpPercap iso_alpha   iso_num 
+        0         0         0         0         0         0         0         0 
+    lifeExp           pop              gdpPercap       
+ Min.   :23.60   Min.   :6.001e+04   Min.   :   241.2  
+ 1st Qu.:48.20   1st Qu.:2.794e+06   1st Qu.:  1202.1  
+ Median :60.71   Median :7.024e+06   Median :  3531.8  
+ Mean   :59.47   Mean   :2.960e+07   Mean   :  7215.3  
+ 3rd Qu.:70.85   3rd Qu.:1.959e+07   3rd Qu.:  9325.5  
+ Max.   :82.60   Max.   :1.319e+09   Max.   :113523.1  
+`geom_smooth()` using formula = 'y ~ x'
+# A tibble: 8 x 5
+  country      continent  year change lifeExp
+  <chr>        <fct>     <dbl>  <dbl>   <dbl>
+1 Rwanda       Africa     1992 -20.4     23.6
+2 Zimbabwe     Africa     1997 -13.6     46.8
+3 Lesotho      Africa     2002 -11.0     44.6
+4 Swaziland    Africa     2002 -10.4     43.9
+5 Botswana     Africa     1997 -10.2     52.6
+6 Cambodia     Asia       1977  -9.10    31.2
+7 Namibia      Africa     2002  -7.43    51.5
+8 South Africa Africa     2002  -6.87    53.4
+null device 
+          1 
+null device 
+          1 
+
+Done. Figures written to figures/

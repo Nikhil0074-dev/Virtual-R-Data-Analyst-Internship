@@ -1,0 +1,125 @@
+=== SUMMARY NUMBERS FOR THE REPORT ===
+
+Rows: 1704 | Countries: 142 
+
+Mean life expectancy 1952: 49.1  2007: 67 
+Median life expectancy 1952: 45.1  2007: 71.9 
+Countries below 50 yrs in 1952: 82  in 2007: 19 
+Countries 70+ yrs in 1952: 5  in 2007: 83 
+
+--- Continent averages 2007 ---
+  continent avg_life
+1    Africa 54.80604
+2  Americas 73.60812
+3      Asia 70.72848
+4    Europe 77.64860
+5   Oceania 80.71950
+
+--- Population-weighted trend (1952, 2007) ---
+   continent year     life
+1     Africa 1952 38.79973
+2     Africa 2007 54.56441
+3   Americas 1952 60.23599
+4   Americas 2007 75.35668
+5       Asia 1952 42.94114
+6       Asia 2007 69.44386
+7     Europe 1952 64.90540
+8     Europe 2007 77.89057
+9    Oceania 1952 69.17040
+10   Oceania 2007 81.06215
+
+--- Correlations 2007 ---
+Pearson r lifeExp vs gdpPercap: 0.68 
+Pearson r lifeExp vs log10(gdpPercap): 0.81 
+R-squared of linear fit on log10 income: 0.65 
+Slope (years per 10x income): 16.6 
+
+--- Spread within continents 2007 (min, max, range) ---
+  continent    min    max  range  n
+1    Africa 39.613 76.442 36.829 52
+2  Americas 60.916 80.653 19.737 25
+3      Asia 43.828 82.603 38.775 33
+4    Europe 71.777 81.757  9.980 30
+5   Oceania 80.204 81.235  1.031  2
+
+--- 8 biggest 5-year drops ---
+       country continent year  change lifeExp
+1       Rwanda    Africa 1992 -20.421  23.599
+2     Zimbabwe    Africa 1997 -13.568  46.809
+3      Lesotho    Africa 2002 -10.965  44.593
+4    Swaziland    Africa 2002 -10.420  43.869
+5     Botswana    Africa 1997 -10.189  52.556
+6     Cambodia      Asia 1977  -9.097  31.220
+7      Namibia    Africa 2002  -7.430  51.479
+8 South Africa    Africa 2002  -6.871  53.365
+
+--- 10 biggest gains 1952-2007 ---
+              country continent  y1952  y2007   gain
+1                Oman      Asia 37.578 75.640 38.062
+2             Vietnam      Asia 40.412 74.249 33.837
+3           Indonesia      Asia 37.468 70.650 33.182
+4        Saudi Arabia      Asia 39.875 72.777 32.902
+5               Libya    Africa 42.723 73.952 31.229
+6         Korea, Rep.      Asia 47.453 78.623 31.170
+7           Nicaragua  Americas 42.314 72.899 30.585
+8  West Bank and Gaza      Asia 43.160 73.422 30.262
+9         Yemen, Rep.      Asia 32.548 62.698 30.150
+10             Gambia    Africa 30.000 59.448 29.448
+
+--- Median GDP per capita by continent (1952, 2007) ---
+   continent year    med_gdp
+1     Africa 1952   987.0256
+2     Africa 2007  1452.2671
+3   Americas 1952  3048.3029
+4   Americas 2007  8948.1029
+5       Asia 1952  1206.9479
+6       Asia 2007  4471.0619
+7     Europe 1952  5142.4697
+8     Europe 2007 28054.0658
+9    Oceania 1952 10298.0857
+10   Oceania 2007 29810.1883
+
+--- Lowest and highest life expectancy 2007 ---
+       country continent lifeExp gdpPercap
+1    Swaziland    Africa  39.613 4513.4806
+2   Mozambique    Africa  42.082  823.6856
+3       Zambia    Africa  42.384 1271.2116
+4 Sierra Leone    Africa  42.568  862.5408
+5      Lesotho    Africa  42.592 1569.3314
+           country continent lifeExp gdpPercap
+1            Japan      Asia  82.603  31656.07
+2 Hong Kong, China      Asia  82.208  39724.98
+3          Iceland    Europe  81.757  36180.79
+4      Switzerland    Europe  81.701  37506.42
+5        Australia   Oceania  81.235  34435.37
+
+--- Countries with life expectancy lower in 2007 than 1992 ---
+                    country continent  y1992  y2007  change
+1                 Swaziland    Africa 58.474 39.613 -18.861
+2                   Lesotho    Africa 59.685 42.592 -17.093
+3                  Zimbabwe    Africa 60.377 43.487 -16.890
+4              South Africa    Africa 61.888 49.339 -12.549
+5                  Botswana    Africa 62.745 50.728 -12.017
+6                   Namibia    Africa 61.999 52.906  -9.093
+7                     Kenya    Africa 59.285 54.110  -5.175
+8  Central African Republic    Africa 49.396 44.741  -4.655
+9                     Gabon    Africa 61.366 56.735  -4.631
+10                 Cameroon    Africa 54.314 50.430  -3.884
+11                   Zambia    Africa 46.100 42.384  -3.716
+12            Cote d'Ivoire    Africa 52.044 48.328  -3.716
+13         Korea, Dem. Rep.      Asia 69.978 67.297  -2.681
+14               Mozambique    Africa 44.284 42.082  -2.202
+15                   Malawi    Africa 49.420 48.303  -1.117
+16              Congo, Rep.    Africa 56.433 55.322  -1.111
+17                     Chad    Africa 51.724 50.651  -1.073
+18               Montenegro    Europe 75.435 74.543  -0.892
+19                  Nigeria    Africa 47.472 46.859  -0.613
+20      Trinidad and Tobago  Americas 69.862 69.819  -0.043
+
+--- Countries with 2007 life expectancy above 75 but GDP below $10,000 ---
+     country continent lifeExp gdpPercap
+1    Albania    Europe  76.423  5937.030
+2 Costa Rica  Americas  78.782  9645.061
+3       Cuba  Americas  78.273  8948.103
+4     Panama  Americas  75.537  9809.186
+5    Reunion    Africa  76.442  7670.123
